@@ -1,7 +1,4 @@
 source "http://rubygems.org"
 
-gem "redis"
-
-group :development do
-  gem "rspec"
-end
+# Specify your gem's dependencies in redis-session-retrieve.gemspec
+gemspec
