@@ -4,9 +4,9 @@ require "redis-session-retrieve/version"
 
 Gem::Specification.new do |s|
   s.name        = "redis-session-retrieve"
-  s.version     = Redis::Session::Retrieve::VERSION
+  s.version     = RedisSessionRetrieve::VERSION
   s.authors     = ["Akeem Adeniji"]
-  s.email       = ["Adelanwa.A.Adeniji@aexp.com"]
+  s.email       = ["akeem.adeniji@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{TODO: Write a gem summary}
   s.description = %q{TODO: Write a gem description}
@@ -18,9 +18,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
-  s.add_runtime_dependency "redis"
   s.add_runtime_dependency "hiredis"
   s.add_runtime_dependency "mock_redis"
 end
