@@ -1,4 +1,5 @@
 require "redis-session-retrieve/version"
+require 'redis'
 
 module Redis
   module Session
