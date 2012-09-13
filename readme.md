@@ -1,4 +1,4 @@
-#Redis Session Retrieve
+#Redis Session Retrieve [![Build Status](https://secure.travis-ci.org/akeem/redis-session-retrieve.png)](http://travis-ci.org/akeem/redis-session-retrieve)
 
 ## The itch to scratch.
 A number of applications need to share session information.
