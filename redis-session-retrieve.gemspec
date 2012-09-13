@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Akeem Adeniji"]
   s.email       = ["akeem.adeniji@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Retrieve sessions stored in redis by redis-store}
+  s.description = %q{An easy way to retrieve session data store in redis via the redis-store gem}
 
   s.rubyforge_project = "redis-session-retrieve"
 
