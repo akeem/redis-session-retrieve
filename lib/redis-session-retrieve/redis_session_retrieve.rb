@@ -1,5 +1,3 @@
-require 'redis'
-
 class RedisSessionRetrieve
   class << self
     attr_accessor :connection
