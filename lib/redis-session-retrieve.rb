@@ -1,3 +1,5 @@
+require 'securerandom'
+require 'active_support/notifications'
 require "redis-session-retrieve/version"
 require "redis-session-retrieve/fetcher"
 
