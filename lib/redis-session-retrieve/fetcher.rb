@@ -11,7 +11,11 @@ module RedisSessionRetrieve
       end
 
       def find_by_id session_id
-        session  = @connection.get session_id
+        session = nil
+
+        ActiveSupport::Notifications.instrument 'redis-session-retrieve.session_lookup',:session_id => session_id do
+          session  = @connection.get session_id
+        end
 
         if session.nil?
           return nil
